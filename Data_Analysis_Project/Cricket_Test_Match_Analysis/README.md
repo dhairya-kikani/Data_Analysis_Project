@@ -44,6 +44,7 @@ Cricket_Test_Match_Analysis/ ├── data/ # Contains raw and processed data f
 
 3. Follow the steps in the notebook to replicate the analysis.
 
+---
 
 ## Contributor 
 
@@ -51,5 +52,7 @@ Dhairya Kikani
 LinkedIn: https://www.linkedin.com/in/dhairya-kikani-5b1b97214/
 Email : kikanidhairya@gmail.com
 Phone : +91 8780569713
+
+---
 
 
