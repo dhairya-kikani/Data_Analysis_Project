@@ -4,9 +4,11 @@ This repository contains various data analysis projects that demonstrate skills 
 
 ## Table of Contents
 - [Projects](#projects)
+- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Contributing](#contributing)
+  
 
 ---
 
@@ -21,6 +23,31 @@ This repository contains various data analysis projects that demonstrate skills 
 - Provides vaccine-related insights using state-wise data.
 
 ---
+
+## Folder Structure
+
+Data_Analysis_Project/
+│
+├── Cricket_Test_Match_Analysis/         # Folder for Cricket analysis project
+│   ├── data/                            # Raw and processed data files
+│   │   └── CricketTestMatchData.csv
+│   ├── notebooks/                       # Jupyter notebooks for analysis
+│   │   └── Cricket Test Clean.ipynb
+│   ├── visuals/                         # Visualizations and plots
+│   ├── README.md                        # Project-specific README
+│
+├── COVID_Data_Analysis/                 # Folder for COVID-19 analysis project
+│   ├── data/                            # Raw and processed data files
+│   │   ├── covid_19_india.csv
+│   │   ├── covid_vaccine_statewise.csv
+│   ├── notebooks/                       # Jupyter notebooks for analysis
+│   │   └── Covid Data Analysis Project.ipynb
+│   ├── visuals/                         # Visualizations and plots
+│   ├── README.md                        # Project-specific README
+│
+├── README.md                            # General overview for the whole project
+└── LICENSE                              # License file
+
 
 ## Technologies Used
 - Python
