@@ -1,82 +1,60 @@
-# Data Analysis Project
+# Cricket Test Match Analysis
 
-This repository contains various data analysis projects that demonstrate skills in data wrangling, visualization, and insightful interpretation. Each subfolder represents an individual project with its own focus and dataset.
-
-## Table of Contents
-- [Projects](#projects)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Contributing](#contributing)
-  
+This project analyzes historical cricket test match data to uncover insights about team performances, player statistics, and match trends. The analysis aims to identify patterns and provide meaningful visualizations of cricket data.
 
 ---
 
-## Projects
+## 📂 Folder Structure
 
-### 1. [Cricket Test Match Analysis](Cricket_Test_Match_Analysis/README.md)
-- Focuses on analyzing historical cricket test match data.
-- Generates insights into player performances and match trends.
+Cricket_Test_Match_Analysis/ ├── data/ # Contains raw and processed data files │ └── CricketTestMatchData.csv ├── notebooks/ # Jupyter notebooks for analysis │ └── Cricket Test Clean.ipynb ├── visuals/ # Visualizations and plots generated from the analysis ├── README.md # Project-specific documentation
 
-### 2. [COVID Data Analysis](COVID_Data_Analysis/README.md)
-- Explores the spread of COVID-19 in India.
-- Provides vaccine-related insights using state-wise data.
 
 ---
 
-## Folder Structure
-
-Data_Analysis_Project/
-│
-├── Cricket_Test_Match_Analysis/         # Folder for Cricket analysis project
-│   ├── data/                            # Raw and processed data files
-│   │   └── CricketTestMatchData.csv
-│   ├── notebooks/                       # Jupyter notebooks for analysis
-│   │   └── Cricket Test Clean.ipynb
-│   ├── visuals/                         # Visualizations and plots
-│   ├── README.md                        # Project-specific README
-│
-├── COVID_Data_Analysis/                 # Folder for COVID-19 analysis project
-│   ├── data/                            # Raw and processed data files
-│   │   ├── covid_19_india.csv
-│   │   ├── covid_vaccine_statewise.csv
-│   ├── notebooks/                       # Jupyter notebooks for analysis
-│   │   └── Covid Data Analysis Project.ipynb
-│   ├── visuals/                         # Visualizations and plots
-│   ├── README.md                        # Project-specific README
-│
-├── README.md                            # General overview for the whole project
-└── LICENSE                              # License file
-
-
-## Technologies Used
-- Python
-- Jupyter Notebook
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Plotly (optional for interactive visuals)
+## 📊 Dataset Details
+- **File Name:** `CricketTestMatchData.csv`
+- **Description:** Includes historical data on cricket test matches, covering player performances, match outcomes, and key statistics.
 
 ---
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Data_Analysis_Project.git
-   cd Data_Analysis_Project
+## 🔑 Key Features
+- Data cleaning and preprocessing.
+- Exploratory data analysis to uncover match trends and player performances.
+- Visualization of key insights using Python libraries.
+
+---
+
+## 🛠️ Tools and Libraries
+- **Python:** Core language for data analysis.
+- **Pandas & NumPy:** For data manipulation.
+- **Matplotlib & Seaborn:** For creating visualizations.
+- **Jupyter Notebook:** Interactive environment for running the analysis.
+
+---
+
+## 🚀 How to Run the Analysis
+
+1. Navigate to the project directory:
    
-2. Install the required libraries:
+       cd Cricket_Test_Match_Analysis
 
-       pip install -r requirements.txt
+2. Open the Jupyter Notebook:
+    
+       jupyter notebook notebooks/Cricket\ Test\ Clean.ipynb
 
-3. Open Jupyter Notebooks for individual projects:
+3. Follow the steps in the notebook to replicate the analysis.
 
-       jupyter notebook
+---
 
-## Contributor
+## Contributor 
 
 Dhairya Kikani
 LinkedIn: https://www.linkedin.com/in/dhairya-kikani-5b1b97214/
 Email : kikanidhairya@gmail.com
 Phone : +91 8780569713
 
+---
+
+
+=======
 
